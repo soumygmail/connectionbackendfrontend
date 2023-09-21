@@ -1,0 +1,22 @@
+read eval  print loop 
+command line, other application, expression , function 
+
+
+// wrapper in node.js
+
+node.js will wrap it with a function wrapper that looks like the following
+
+(function(exports,require,module,__filenME,__dirname{
+    // module code actully lives in here
+});
+
+by doing this, node js acheive a few things:
+it keeps top-level variable scoped to the module rather than the global Object.apply.
+
+exports 
+
+module.exports 
+
+require
+
+dirname
